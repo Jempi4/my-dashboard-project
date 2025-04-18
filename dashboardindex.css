@@ -1,0 +1,199 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color:azure;
+    width: 100%;
+}
+
+
+/* Left Sidebar Design */
+.leftsidebar{
+    /* border: solid 5px black; */
+    margin-bottom: 0px;
+    padding-left: 0px;
+    margin-right: 920px;
+    background-color:blanchedalmond;
+    /* height: 100%; */
+    /* margin-top: 0px; */
+
+    /* margin-left: 0px; */
+}
+
+.navmenu{
+    /* border: solid rgb(64, 51, 148); */
+    /* padding-left: 0px; */
+    margin-top: 120px;
+    /* margin-bottom: 100px; */
+}
+
+
+/* Admin Menu */
+.adminmenu{
+    display: flex;
+    /* padding-left: 0px; */
+    /* border: solid orange; */
+    margin-top: 0px;
+
+    
+}
+
+.adminmenu > img{
+    /* border: solid black; */
+    margin-top: 17px;
+    margin-right: 30px;
+    
+}
+
+/* Admin icon */
+.adminicon{
+    display: flex;
+    /* padding-left: 0px; */
+}
+
+.adminicon > img{
+    /* border: solid black; */
+    /* margin-top: 17px;
+    margin-right: 30px; */
+
+}
+
+
+/* Messages Icon */
+.messagesicon{
+    display: flex;
+}
+
+.messagesicon > img{
+    /* border: solid black; */
+    /* margin-top: 17px;
+    margin-right: 30px; */
+}
+
+
+
+/* Report Icon */
+.reporticon{
+    display: flex;
+}
+
+.reporticon > img{
+     /* border: solid black; */
+     /* margin-top: 17px;
+     margin-right: 30px; */
+}
+
+/* Attendance Icon */
+.attendanceicon{
+    display: flex;
+}
+
+.attendanceicon > img{
+    /* border: solid black; */
+    /* margin-top: 17px;
+    margin-right: 30px; */
+}
+
+/* Settings icon */
+.settingsicon{
+    display: flex;
+}
+
+.settingsicon > img{
+    /* border: solid black; */
+    /* margin-top: 17px;
+    margin-right: 30px; */
+    
+}
+
+/* logout Settings */
+.logout{
+    display: flex;
+    /* border: solid yellow; */
+    
+    
+}
+
+
+.logout > img{
+    /* border: solid black; */
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 0px;
+}
+
+#navbutton{
+    width: 100%;
+    height: 40px;
+    display:flex;
+    border-color: azure;
+    cursor: pointer;
+    /* border-right: solid rgb(164, 164, 164) 2px; */
+    
+
+
+/* button: hover{
+    box-shadow: inset 0 0 0 50px;
+} */
+    
+    
+    /* margin-top: 17px; */
+    /* margin-right: 30px;  */
+    
+}
+
+
+.settingsicon > #navbutton{
+    margin-bottom: 145px;
+}
+
+
+/* /* Button Alignment */
+#navbutton > img{
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 30px; 
+    /* border-color: azure */
+}
+
+#navbutton > p{
+    margin-top: 10px;
+}
+
+#navbutton > h3{
+    margin-top: 15px;
+}
+
+.adminmenu > #navbutton{
+    /* border: none; */
+     /* background-color: white;  */
+}
+
+#logoutbutton > img{
+    margin-top: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    width: 100%;
+    
+}
+
+.settingsicon > a{
+    margin-bottom: 145px;
+    /* border: solid 2px orange; */
+}
+
+/* .messagesicon >  a > button{
+    /* border-right: solid grey 2px; */
+    /* border-right: solid rgb(164, 164, 164) 3px;  */
+    
+
+.messagesicon > a {
+    /* border-right: solid azure 2px;  */
+    /* border-right: solid rgb(164, 164, 164) 2px; */
+    /* border-right: solid rgb(164, 164, 164) 2px; */
+} 
